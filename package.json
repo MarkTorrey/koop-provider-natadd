@@ -11,9 +11,12 @@
     "test": "standard && tape test/*.js | tap-spec"
   },
   "dependencies": {
+    "@mapbox/geojson-merge": "^1.0.2",
     "config": "^1.25.1",
+    "esri-to-geojson": "^1.0.3",
     "koop": "^3.4.0",
-    "request": "^2.79.0"
+    "request": "^2.79.0",
+    "request-promise-native": "^1.0.4"
   },
   "author": "Daniel Fenton",
   "license": "Apache-2.0",

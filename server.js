@@ -10,6 +10,9 @@ const koop = new Koop()
 const provider = require('./')
 koop.register(provider)
 
+//const cg = require('koop-craigslist')
+//koop.register(cg)
+
 // Start listening for HTTP traffic
 const config = require('config')
 // Set port for configuration or fall back to default

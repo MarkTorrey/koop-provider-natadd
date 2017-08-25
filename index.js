@@ -8,13 +8,13 @@
 
 const provider = {
   type: 'provider',
-  name: 'sample',
+  name: 'nad',
   hosts: false,
   disableIdParam: true,
   Controller: require('./controller'),
   Model: require('./model'),
   routes: require('./routes'),
   version: require('./package.json').version
-}
+};
 
-module.exports = provider
+module.exports = provider;
